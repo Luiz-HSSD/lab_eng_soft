@@ -1,5 +1,5 @@
 from Core.IStrategy import IStrategy
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 class Parametro_Excluir(IStrategy):
     """description of class"""
     def Processar(self,EntidadeDominio):

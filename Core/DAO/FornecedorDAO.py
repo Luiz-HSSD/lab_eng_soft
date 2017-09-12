@@ -1,8 +1,8 @@
 import psycopg2
 from Utils.Conexao import Conexao 
 from Core.IDAO import IDAO
-from Dominio.Fornecedor import Fornecedor
-from Dominio.EntidadeDominio import EntidadeDominio
+from Fornecedor import Fornecedor
+from EntidadeDominio import EntidadeDominio
 class FornecedorDAO(IDAO):
     """description of class"""
     def _init_():

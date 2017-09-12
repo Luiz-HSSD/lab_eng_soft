@@ -1,4 +1,4 @@
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 class IDAO:
     def Cadastrar(EntidadeDominio):
         raise NotImplementedError("Função não iplementada")

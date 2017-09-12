@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - My Flask Application</title>
+    <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
+</head>
+
+<body>
+    <form action="{{url_for('client_save')}}" method="post">
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label for="name">Nome</label>
+                <input type="text" class="form-control" name="name">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="email">Email</label>
+                <input type="text" class="form-control" name="email">
+            </div>
+        </div>
+        <hr />
+        <div id="actions" class="row">
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a href="/index" class="btn btn-default">Cancel</a>
+            </div>
+        </div>
+    </form>
+    <a href="/index" class="btn btn-default">Cancel</a>
+</body>
+</html>

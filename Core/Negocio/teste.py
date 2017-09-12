@@ -1,5 +1,5 @@
 from Core.IStrategy import IStrategy
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 class teste(IStrategy):
     """description of class"""
     def Processar(self,EntidadeDominio):

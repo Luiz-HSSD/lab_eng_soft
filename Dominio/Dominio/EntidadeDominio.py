@@ -1,5 +1,5 @@
 from datetime import datetime
-from Dominio.Entidade import Entidade
+from Entidade import Entidade
 class EntidadeDominio(Entidade):
     """description of class"""
     __ID=0

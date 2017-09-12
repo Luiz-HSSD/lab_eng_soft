@@ -1,4 +1,4 @@
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 class IFachada:
     """description of class"""
 def Cadastrar(self, EntidadeDominio):

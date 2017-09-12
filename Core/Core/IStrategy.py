@@ -1,4 +1,4 @@
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 class IStrategy:
     """description of class"""
     def Processar(self,EntidadeDominio):

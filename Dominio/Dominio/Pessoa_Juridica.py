@@ -1,4 +1,4 @@
-from Dominio.Pessoa import Pessoa
+from Pessoa import Pessoa
 class Pessoa_Juridica(Pessoa):
     """description of class"""
     __CNPJ="12345678901234"

@@ -1,6 +1,6 @@
-from Dominio.EntidadeDominio import EntidadeDominio
+from EntidadeDominio import EntidadeDominio
 from DAO.FornecedorDAO import FornecedorDAO
-from Dominio.Fornecedor import Fornecedor
+from Fornecedor import Fornecedor
 from Core.IDAO import IDAO
 from Core.IFachada import IFachada
 from Core.IStrategy import IStrategy
@@ -65,5 +65,4 @@ class Fachada(IFachada):
             per=  self.IDAOS[EntidadeDominio.__class__.__name__]
             return per.Excluir(EntidadeDominio)
         return msg
-    def Visualizar():
-	    executar_regras(EntidadeDominio,r)
+#    def Visualizar():	    executar_regras(EntidadeDominio,r)
