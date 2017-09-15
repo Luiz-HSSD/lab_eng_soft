@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Web", "FlaskWebProject2\Web.pyproj", "{7AF85EC2-5B2C-404E-9207-1CA92E422504}"
-EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Core", "Core\Core.pyproj", "{7283280F-F12C-40A0-BD24-BB6BF86415AB}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Dominio", "Dominio\Dominio.pyproj", "{CCF16224-C2A4-444C-8FB2-6C2B32A59747}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Web", "Web\Web.pyproj", "{7AF85EC2-5B2C-404E-9207-1CA92E422504}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,14 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7283280F-F12C-40A0-BD24-BB6BF86415AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7283280F-F12C-40A0-BD24-BB6BF86415AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCF16224-C2A4-444C-8FB2-6C2B32A59747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCF16224-C2A4-444C-8FB2-6C2B32A59747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF85EC2-5B2C-404E-9207-1CA92E422504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
